@@ -20,6 +20,8 @@ while running:
     else:
         credit_card = input("credt card number")
         save_transaction(prices[choice - 1], credit_card, items[choice - 1])
+        
+        # retirado do livro  use a cabeça python
 
 
 
